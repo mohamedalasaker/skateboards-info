@@ -1,0 +1,63 @@
+/* body background color  #E5E5E5 */
+/* skate around color #FFEAEA */
+/* border color #A59B9B */
+/* font color #444444 */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container-fluid{
+    background:url('background-1.jpg') no-repeat top fixed;
+    background-color: rgba(255,255,255,0.6);
+    background-size:cover;
+    background-blend-mode: darken;
+}
+
+.container{
+    height: 100vh;
+    padding: 0;
+}
+.col-12{
+    padding: 0;
+}
+
+.navbar{
+    min-width: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: none;
+}
+
+#title{
+    margin-top: 20%;
+    transform: translateY(-20%);
+    color: #FFEAEA;
+    font-weight: 700;
+    font-size: 3rem;
+}
+#title::after{
+    content: '';
+    height: 10px;
+    width: 300px;
+    display: block;
+    margin: 0 auto;
+    background-color:#A59B9B;
+}
+.nav-link{
+    font-weight: 700;
+    font-size: 1.5rem;
+    color: #FFEAEA !important;
+}
+.navbar-brand{
+    font-weight: 900;
+    font-size: 1.5rem;
+    color: #FFEAEA !important;
+}
+.nav-link:hover{
+    color: #FFEAEA;
+}
+.navbar-toggler{
+    color: white;
+}
